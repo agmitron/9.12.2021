@@ -15,4 +15,5 @@ form.addEventListener('submit', e => {
   newItem.querySelector('.item__text').textContent = form__input.value
 
   list.insertAdjacentElement('beforeend', newItem)
+  form__input.value = ''
 })
